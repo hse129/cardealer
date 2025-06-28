@@ -68,11 +68,11 @@ function showOptionSelector(trimId) {
   );
 }
 
-function showSummaryView() {
+async function showSummaryView() {
   const app = document.getElementById('app');
   app.innerHTML = '';
   app.appendChild(
-    renderSummaryView(
+    await renderSummaryView(
       state,
       // 처음으로
       () => {
@@ -94,11 +94,11 @@ function showSummaryView() {
   );
 }
 
-function showCompareView() {
+async function showCompareView() {
   const app = document.getElementById('app');
   app.innerHTML = '';
   app.appendChild(
-    renderCompareView(() => showSummaryView())
+    await renderCompareView(() => showSummaryView())
   );
 }
 

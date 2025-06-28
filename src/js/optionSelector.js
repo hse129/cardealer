@@ -1,5 +1,4 @@
 // 옵션 선택 UI 생성 및 로직
-import fetch from 'node-fetch';
 
 /**
  * 옵션 선택 UI를 렌더링합니다.
