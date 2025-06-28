@@ -1,13 +1,8 @@
-import brandsData from '../data/brands.json';
-import modelsData from '../data/models.json';
-import trimsData from '../data/trims.json';
-import optionsData from '../data/options.json';
-
 /**
  * 저장된 구성 비교 UI를 렌더링합니다.
  * @param {function} onBack - 뒤로가기 콜백
  */
-export function renderCompareView(onBack) {
+export async function renderCompareView(onBack) {
   const container = document.createElement('div');
   container.className = 'compare-container';
 
@@ -28,6 +23,14 @@ export function renderCompareView(onBack) {
     container.appendChild(backBtn);
     return container;
   }
+
+  // 데이터 동적 fetch
+  const [brandsData, modelsData, trimsData, optionsData] = await Promise.all([
+    fetch('/data/brands.json').then(r => r.json()),
+    fetch('/data/models.json').then(r => r.json()),
+    fetch('/data/trims.json').then(r => r.json()),
+    fetch('/data/options.json').then(r => r.json()),
+  ]);
 
   // 비교할 구성 선택
   const selectBox = document.createElement('div');

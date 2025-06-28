@@ -1,0 +1,25 @@
+[
+  { "id": 1, "brandId": 1, "name": "아반떼", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAxMDZfNDMg%2FMDAxNzM2MTU1MTE5MjEw.f92X2XrkpyQFt0QKmXsoZqWDIypkki8Vo-KumZNS6Asg.id_dz8pRAUycT6b_EH92eyhTiPnuVU1QDN1cc3Wo8f4g.JPEG%2F6.jpg&type=a340" },
+  { "id": 2, "brandId": 1, "name": "코나", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MjFfMjMy%2FMDAxNzQ3NzgxMjgwMDY1.3M0kHlRsKQQBkiWL_IZmPsy7_whA9Fvxs6cyNw-z268g.O4TtLTIXxIiJFS2V0qP_RNuFF9w6jJlfma3ck2VZCVQg.PNG%2FIMG%25A3%25DF1545.PNG&type=l340_165" },
+  { "id": 3, "brandId": 1, "name": "소나타", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEyMjhfNDkg%2FMDAxNzM1MzYzODc2OTQw.zQNhZSPNhnIXd5PJeO-uYVt8ospNzJtRYivNYWE17tUg.1DeDbf7x3pJhN0ZN6oOe2tcBapo4w3I0TEMC99mNtx4g.JPEG%2F%25BC%25D2%25B3%25AA%25C5%25B8_%25C7%25CF%25C0%25CC%25BA%25EA%25B8%25AE%25B5%25E5-1208.jpg&type=a340" },
+
+  { "id": 4, "brandId": 2, "name": "K3", "image": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Ffile.bodnara.co.kr%2Fup%2Fnews%2F166126-logo_k3_led.jpg&type=a340" },
+  { "id": 5, "brandId": 2, "name": "니로", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MjhfMjIx%2FMDAxNzI0ODA2NDIwMDg5.ty_zIqYEVqTrXNIDRiJqu05zQa5DIezCiJJoex2zunkg.Em9mnG-ybOOKJtJLMNjrCxXQkSs0sqwwcu_3-e0nvxQg.PNG%2Fimage.png&type=a340" },
+  { "id": 6, "brandId": 2, "name": "셀토스", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MTVfMTQ4%2FMDAxNzQ3MzExODE0MTgw.v-kQ0zbi18i6yHofiVuMwIB2dYdymlaCK8j42WSd8DQg.GHdYE9dyPVq_nrHxwQpDul62C384uOb5vNLt9I6k67sg.JPEG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_15-5-2025_212228_www.foxrental.shop.jpeg&type=a340" },
+
+  { "id": 7, "brandId": 3, "name": "a", "image": "/cars/shelby_a1.png" },
+  { "id": 8, "brandId": 3, "name": "a", "image": "/cars/shelby_a2.png" },
+  { "id": 9, "brandId": 3, "name": "a", "image": "/cars/shelby_a3.png" },
+
+  { "id": 10, "brandId": 4, "name": "X3", "image": "/cars/x3.png" },
+  { "id": 11, "brandId": 4, "name": "X5", "image": "/cars/x5.png" },
+  { "id": 12, "brandId": 4, "name": "X7", "image": "/cars/x7.png" },
+
+  { "id": 13, "brandId": 5, "name": "A클", "image": "/cars/a_class.png" },
+  { "id": 14, "brandId": 5, "name": "E클", "image": "/cars/e_class.png" },
+  { "id": 15, "brandId": 5, "name": "S클", "image": "/cars/s_class.png" },
+
+  { "id": 16, "brandId": 6, "name": "A4", "image": "/cars/audi_a4.png" },
+  { "id": 17, "brandId": 6, "name": "Q5", "image": "/cars/audi_q5.png" },
+  { "id": 18, "brandId": 6, "name": "e-tron", "image": "/cars/audi_etron.png" }
+] 

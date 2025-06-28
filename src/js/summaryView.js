@@ -44,9 +44,17 @@ function saveConfigToLocalStorage(state) {
  * @param {function} onSave - 저장 콜백(추후 구현)
  * @param {function} onCompare - 비교 콜백(추후 구현)
  */
-export function renderSummaryView(state, onRestart, onSave, onCompare) {
+export async function renderSummaryView(state, onRestart, onSave, onCompare) {
   const container = document.createElement('div');
   container.className = 'summary-container';
+
+  // 데이터 동적 fetch
+  const [brandsData, modelsData, trimsData, optionsData] = await Promise.all([
+    fetch('/data/brands.json').then(r => r.json()),
+    fetch('/data/models.json').then(r => r.json()),
+    fetch('/data/trims.json').then(r => r.json()),
+    fetch('/data/options.json').then(r => r.json()),
+  ]);
 
   // 데이터 매칭
   const brand = brandsData.find(b => b.id === state.selectedBrandId);

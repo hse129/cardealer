@@ -1,0 +1,29 @@
+[
+  { "id": 1, "trimId": 1, "name": "선루프", "price": 1000000, "category": "익스테리어", "description": "파노라마 선루프", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160511_41%2Fdjqtwkssl84770_1462970822036ne4FE_PNG%2F%25BF%25C3%25B4%25BA%25BD%25EE%25B7%25BB%25C5%25E4-%25C0%25E5%25B1%25E2%25B7%25BB%25C6%25AE7.png&type=a340" },
+  { "id": 2, "trimId": 1, "name": "내비게이션", "price": 800000, "category": "인테리어", "description": "10.25인치 내비게이션", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230801_157%2F1690854668716lzSHp_JPEG%2F1791542723837152_1011933063.jpg&type=a340" },
+  { "id": 3, "trimId": 1, "name": "통풍시트", "price": 500000, "category": "시트", "description": "앞좌석 통풍시트", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210204_259%2F1612426849542YcGON_JPEG%2F13562695253406070_1720144146.jpg&type=a340" },
+
+  { "id": 4, "trimId": 2, "name": "스마트 크루즈 컨트롤", "price": 1200000, "category": "안전", "description": "스마트 크루즈 컨트롤 시스템", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MjVfMTIx%2FMDAxNzIxOTAyNTkzMjI5.KbQts7t2bjnZ1Ryug-SEtL688so8z5tq3_Amgb6Z2nAg.VPwkt-XzgC9xqED1XXsHsBap808PNXG7KQrK_nhu9Mog.JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C5%25A9%25B7%25E7%25C1%25EE_%25B1%25D7%25B7%25A3%25C0%25FA.jpg&type=a340" },
+  { "id": 5, "trimId": 2, "name": "BOSE 오디오", "price": 900000, "category": "오디오", "description": "프리미엄 BOSE 사운드 시스템", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20131207_232%2Fsuhuni2_1386382134582mWg1y_JPEG%2F7.jpg&type=a340" },
+
+  { "id": 6, "trimId": 3, "name": "헤드업 디스플레이", "price": 1100000, "category": "인테리어", "description": "컬러 헤드업 디스플레이", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTAzMTlfMjEw%2FMDAxNTUyOTg5Mjc2MTYz.tvXVQJZuCDw7DkG0ZIGl83KRtyJtmX3WmkeCV1Yuja8g.Llt6vr6y__8hvHdMU1YQyZo0lN84sGSCX1Susg6hTzwg.PNG.keungib88%2FG90_1.PNG&type=a340" },
+  { "id": 7, "trimId": 3, "name": "서라운드 뷰", "price": 1300000, "category": "안전", "description": "360도 서라운드 뷰 모니터", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160124_286%2Fcarsale_1453626796557cyOYp_JPEG%2F2013021501001202400070531.jpg&type=a340" },
+
+  { "id": 8, "trimId": 4, "name": "선루프", "price": 1000000, "category": "익스테리어", "description": "파노라마 선루프", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160511_41%2Fdjqtwkssl84770_1462970822036ne4FE_PNG%2F%25BF%25C3%25B4%25BA%25BD%25EE%25B7%25BB%25C5%25E4-%25C0%25E5%25B1%25E2%25B7%25BB%25C6%25AE7.png&type=a340" },
+  { "id": 9, "trimId": 4, "name": "내비게이션", "price": 800000, "category": "인테리어", "description": "10.25인치 내비게이션", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230801_157%2F1690854668716lzSHp_JPEG%2F1791542723837152_1011933063.jpg&type=a340" },
+
+  { "id": 10, "trimId": 5, "name": "통풍시트", "price": 500000, "category": "시트", "description": "앞좌석 통풍시트", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210204_259%2F1612426849542YcGON_JPEG%2F13562695253406070_1720144146.jpg&type=a340"},
+  { "id": 11, "trimId": 5, "name": "스마트 크루즈 컨트롤", "price": 1200000, "category": "안전", "description": "스마트 크루즈 컨트롤 시스템", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MjVfMTIx%2FMDAxNzIxOTAyNTkzMjI5.KbQts7t2bjnZ1Ryug-SEtL688so8z5tq3_Amgb6Z2nAg.VPwkt-XzgC9xqED1XXsHsBap808PNXG7KQrK_nhu9Mog.JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C5%25A9%25B7%25E7%25C1%25EE_%25B1%25D7%25B7%25A3%25C0%25FA.jpg&type=a340" },
+
+  { "id": 12, "trimId": 6, "name": "BOSE 오디오", "price": 900000, "category": "오디오", "description": "프리미엄 BOSE 사운드 시스템", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20131207_232%2Fsuhuni2_1386382134582mWg1y_JPEG%2F7.jpg&type=a340" },
+  { "id": 13, "trimId": 6, "name": "헤드업 디스플레이", "price": 1100000, "category": "인테리어", "description": "컬러 헤드업 디스플레이", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTAzMTlfMjEw%2FMDAxNTUyOTg5Mjc2MTYz.tvXVQJZuCDw7DkG0ZIGl83KRtyJtmX3WmkeCV1Yuja8g.Llt6vr6y__8hvHdMU1YQyZo0lN84sGSCX1Susg6hTzwg.PNG.keungib88%2FG90_1.PNG&type=a340" },
+
+  { "id": 14, "trimId": 7, "name": "서라운드 뷰", "price": 1300000, "category": "안전", "description": "360도 서라운드 뷰 모니터", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160124_286%2Fcarsale_1453626796557cyOYp_JPEG%2F2013021501001202400070531.jpg&type=a340" },
+  { "id": 15, "trimId": 7, "name": "선루프", "price": 1000000, "category": "익스테리어", "description": "파노라마 선루프", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160511_41%2Fdjqtwkssl84770_1462970822036ne4FE_PNG%2F%25BF%25C3%25B4%25BA%25BD%25EE%25B7%25BB%25C5%25E4-%25C0%25E5%25B1%25E2%25B7%25BB%25C6%25AE7.png&type=a340" },
+
+  { "id": 16, "trimId": 8, "name": "내비게이션", "price": 800000, "category": "인테리어", "description": "10.25인치 내비게이션" },
+
+  { "id": 17, "trimId": 8, "name": "통풍시트", "price": 500000, "category": "시트", "description": "앞좌석 통풍시트", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210204_259%2F1612426849542YcGON_JPEG%2F13562695253406070_1720144146.jpg&type=a340" },
+
+  { "id": 18, "trimId": 4, "name": "통풍시트", "price": 500000, "category": "시트", "description": "앞좌석 통풍시트", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210204_259%2F1612426849542YcGON_JPEG%2F13562695253406070_1720144146.jpg&type=a340" }
+] 

@@ -1,0 +1,42 @@
+[
+  { "id": 1, "modelId": 1, "name": "스마트", "basePrice": 18000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MDlfMjIw%2FMDAxNTk5NjUxNDg3ODE2.NWxIY_kKuLAuHcgwKjdduR7fuo4FE4d764UG_eEwNgAg.ZyBv_aBdTBBr8gM7264vn2RdB-YzGMfUblplQJDbXuYg.JPEG.jin84forever%2FKakaoTalk_20200909_194033394_08.jpg&type=sc960_832" },
+  { "id": 2, "modelId": 1, "name": "모던", "basePrice": 20000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MjFfMjQ2%2FMDAxNjU1ODA0NjcyNDI3.DLQnn6ehUEyBe35Y6kpSAszZigrvOhyI9FbVvueSZNkg.Kt1j9HT2jMKTVkiHazhq6rLyv7SkcHNOLvbY1sAgfUcg.JPEG.pgh8935%2FIMG_8591.JPG&type=sc960_832" },
+  { "id": 3, "modelId": 1, "name": "인스퍼레이션", "basePrice": 23000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MTVfMTg5%2FMDAxNTg2OTE2NDY2Nzgy.je4uzFe7MCTEqZV9_coUzHQVzbRD5a5Tj4fu-1KWN_Eg.vT8m7gseTR51hJxNSSIAHfBD5sUBi4Ln37uiuMyiVkQg.JPEG.wjddlqkqh21%2F20200414_160246.jpg&type=sc960_832" },
+
+  { "id": 4, "modelId": 2, "name": "모던", "basePrice": 21000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MjZfMjUg%2FMDAxNzIxOTY4NDI2MTM1.-Y5wYatPz9_julPwHVyqybCykNAeXWDlFWDNZ-BEt9kg.fSPNS4aDSJTFHFZ0ZoGvLzUefuf-ohkuWI1FKwYF8Wcg.PNG%2F%25C4%25DA%25B3%25AA_%25B1%25E2%25BA%25BB_%25C8%25D9_%25B5%25F0%25C0%25DA%25C0%25CE.png&type=a340" },
+  { "id": 5, "modelId": 2, "name": "인스퍼레이션", "basePrice": 24000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMTlfMjk3%2FMDAxNjc0MTEwOTA3OTk3.W3TIo3_LQF3vqvBA1zOG26pg9WOsOlwtpjpvpq9xVtEg.nloviH1WGi_ieE9oYbR2RmKGIwvWd_58R7fr7h3yTNcg.PNG.sh_4959%2Fbatch_8.png&type=a340" },
+
+  { "id": 6, "modelId": 3, "name": "스마트", "basePrice": 22000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEwMjRfNjMg%2FMDAxNTcxODc3MzEwMDcz.NRjv0Gwkr1KMLrW6fnz98GrZW1PmKAG-thc4VkqwUCYg.cvDKSguuQ4i7BVaUS4tOb7C1agCObj-SWt_CzCWpnWog.PNG.stjsmjxeg3%2F10.png&type=a340" },
+  { "id": 7, "modelId": 3, "name": "프리미엄", "basePrice": 25000000, "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MjJfODQg%2FMDAxNjIxNjYzNDYxMTA0.kEAGmF7HRvWTgFsX6hrA2LUJILFuCy6wP_2uUkfBNtsg.XDN2mT_KR-q2bUIZhcOfBsSCDsXXdL1MjiDSPs7tAWkg.JPEG.asp943%2F20210504_192039.jpg&type=sc960_832" },
+
+  { "id": 8, "modelId": 4, "name": "트렌디", "basePrice": 17000000, "image": "/trims/k3_trendy.png" },
+  { "id": 9, "modelId": 4, "name": "럭셔리", "basePrice": 20000000, "image": "/trims/k3_luxury.png" },
+
+  { "id": 10, "modelId": 5, "name": "프레스티지", "basePrice": 23000000, "image": "/trims/niro_prestige.png" },
+  { "id": 11, "modelId": 5, "name": "시그니처", "basePrice": 26000000, "image": "/trims/niro_signature.png" },
+
+  { "id": 12, "modelId": 6, "name": "트렌디", "basePrice": 21000000, "image": "/trims/seltos_trendy.png" },
+  { "id": 13, "modelId": 6, "name": "프레스티지", "basePrice": 24000000, "image": "/trims/seltos_prestige.png" },
+
+  { "id": 14, "modelId": 7, "name": "베이직", "basePrice": 30000000, "image": "/trims/shelby_a1_basic.png" },
+  { "id": 15, "modelId": 8, "name": "스페셜", "basePrice": 35000000, "image": "/trims/shelby_a2_special.png" },
+  { "id": 16, "modelId": 9, "name": "리미티드", "basePrice": 40000000, "image": "/trims/shelby_a3_limited.png" },
+
+  { "id": 17, "modelId": 10, "name": "xLine", "basePrice": 55000000, "image": "/trims/x3_xline.png" },
+  { "id": 18, "modelId": 10, "name": "M Sport", "basePrice": 60000000, "image": "/trims/x3_msport.png" },
+
+  { "id": 19, "modelId": 11, "name": "xLine", "basePrice": 70000000, "image": "/trims/x5_xline.png" },
+  { "id": 20, "modelId": 11, "name": "M Sport", "basePrice": 75000000, "image": "/trims/x5_msport.png" },
+
+  { "id": 21, "modelId": 12, "name": "xLine", "basePrice": 90000000, "image": "/trims/x7_xline.png" },
+  { "id": 22, "modelId": 12, "name": "M Sport", "basePrice": 95000000, "image": "/trims/x7_msport.png" },
+
+  { "id": 23, "modelId": 13, "name": "스타일", "basePrice": 40000000, "image": "/trims/a_class_style.png" },
+  { "id": 24, "modelId": 13, "name": "프리미엄", "basePrice": 45000000, "image": "/trims/a_class_premium.png" },
+
+  { "id": 25, "modelId": 14, "name": "익스클루시브", "basePrice": 60000000, "image": "/trims/e_class_exclusive.png" },
+  { "id": 26, "modelId": 14, "name": "아방가르드", "basePrice": 65000000, "image": "/trims/e_class_avantgarde.png" },
+
+  { "id": 27, "modelId": 15, "name": "럭셔리", "basePrice": 100000000, "image": "/trims/s_class_luxury.png" },
+  { "id": 28, "modelId": 15, "name": "마이바흐", "basePrice": 200000000, "image": "/trims/s_class_maybach.png" }
+] 
