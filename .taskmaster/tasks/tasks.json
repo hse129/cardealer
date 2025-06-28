@@ -1,0 +1,150 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Project Setup with Vite and Vanilla JS",
+        "description": "Initialize the project repository with Vite and set up the basic SPA structure using Vanilla JavaScript.",
+        "details": "1. Install Node.js and npm if not already installed\n2. Create a new Vite project: `npm create vite@latest car-maker -- --template vanilla`\n3. Navigate to the project directory: `cd car-maker`\n4. Install dependencies: `npm install`\n5. Set up the basic folder structure:\n   - `/src/assets` - for images and static files\n   - `/src/styles` - for CSS files\n   - `/src/js` - for JavaScript modules\n   - `/src/data` - for JSON data files\n6. Create initial HTML structure in index.html with appropriate meta tags\n7. Set up basic routing mechanism for SPA functionality\n8. Configure Vite as needed in vite.config.js\n9. Create a basic CSS reset and global styles\n10. Set up Git repository with proper .gitignore",
+        "testStrategy": "1. Verify that the Vite development server starts correctly: `npm run dev`\n2. Ensure the project builds without errors: `npm run build`\n3. Test that the basic SPA navigation works\n4. Verify that the folder structure is correctly set up\n5. Check that the CSS reset is applied correctly",
+        "priority": "high",
+        "dependencies": [],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 2,
+        "title": "Create Data Models and Mock Data",
+        "description": "Define data structures and create mock JSON data for car brands, models, trims, and options.",
+        "details": "1. Define the following data structures:\n   - Brand: { id, name, logo }\n   - Model: { id, brandId, name, image }\n   - Trim: { id, modelId, name, basePrice, image }\n   - Option: { id, trimId, name, price, category, description }\n2. Create a `/src/data` directory to store JSON files\n3. Create mock data files:\n   - brands.json - with at least 3 car manufacturers\n   - models.json - with at least 2-3 models per brand\n   - trims.json - with at least 2-3 trims per model\n   - options.json - with various options for each trim\n4. Implement data access utility functions in `/src/js/data.js`:\n   - `getBrands()`\n   - `getModelsByBrandId(brandId)`\n   - `getTrimsByModelId(modelId)`\n   - `getOptionsByTrimId(trimId)`\n5. Ensure proper relationships between data entities",
+        "testStrategy": "1. Validate JSON data structure with a JSON schema validator\n2. Test data access utility functions with different inputs\n3. Verify that relationships between entities are maintained\n4. Check for edge cases like empty arrays or missing properties\n5. Ensure data is comprehensive enough for the application",
+        "priority": "high",
+        "dependencies": [
+          1
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 3,
+        "title": "Implement Brand Selection UI",
+        "description": "Create the user interface for selecting car brands with logos and responsive design.",
+        "details": "1. Create a component for brand selection in `/src/js/components/BrandSelector.js`\n2. Design a grid or flex layout to display brand logos and names\n3. Implement the following features:\n   - Fetch and display all available brands\n   - Add click event listeners to each brand item\n   - Highlight the selected brand\n   - Trigger the next step (model selection) when a brand is selected\n4. Style the component with CSS in `/src/styles/brand-selector.css`\n5. Make the UI responsive for different screen sizes\n6. Add loading state while fetching data\n7. Implement error handling for data fetch failures\n8. Add subtle animations for selection changes",
+        "testStrategy": "1. Test rendering with different numbers of brands\n2. Verify that clicking a brand correctly highlights it\n3. Test that the next step is triggered when a brand is selected\n4. Check responsive behavior on different screen sizes\n5. Verify loading states and error handling\n6. Test keyboard navigation accessibility",
+        "priority": "high",
+        "dependencies": [
+          1,
+          2
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 4,
+        "title": "Implement Model Selection UI",
+        "description": "Create the user interface for selecting car models based on the previously selected brand.",
+        "details": "1. Create a component for model selection in `/src/js/components/ModelSelector.js`\n2. Design a card-based layout to display model information:\n   - Model name\n   - Model image\n   - Brief description (if available)\n3. Implement the following features:\n   - Fetch and display models based on selected brand ID\n   - Add click event listeners to each model card\n   - Highlight the selected model\n   - Trigger the next step (trim selection) when a model is selected\n4. Style the component with CSS in `/src/styles/model-selector.css`\n5. Add a back button to return to brand selection\n6. Make the UI responsive for different screen sizes\n7. Add loading state while fetching data\n8. Implement error handling for data fetch failures",
+        "testStrategy": "1. Test rendering with different numbers of models\n2. Verify that only models for the selected brand are displayed\n3. Test that clicking a model correctly highlights it\n4. Verify that the next step is triggered when a model is selected\n5. Test the back button functionality\n6. Check responsive behavior on different screen sizes\n7. Verify loading states and error handling",
+        "priority": "medium",
+        "dependencies": [
+          2,
+          3
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 5,
+        "title": "Implement Trim Selection UI",
+        "description": "Create the user interface for selecting car trims (grades) based on the previously selected model.",
+        "details": "1. Create a component for trim selection in `/src/js/components/TrimSelector.js`\n2. Design a comparative layout to display trim information:\n   - Trim name\n   - Base price\n   - Key features\n   - Image (if available)\n3. Implement the following features:\n   - Fetch and display trims based on selected model ID\n   - Add click event listeners to each trim item\n   - Highlight the selected trim\n   - Display the base price prominently\n   - Trigger the next step (option selection) when a trim is selected\n4. Style the component with CSS in `/src/styles/trim-selector.css`\n5. Add a back button to return to model selection\n6. Make the UI responsive for different screen sizes\n7. Add loading state while fetching data\n8. Implement error handling for data fetch failures",
+        "testStrategy": "1. Test rendering with different numbers of trims\n2. Verify that only trims for the selected model are displayed\n3. Test that clicking a trim correctly highlights it\n4. Verify that the base price is displayed correctly\n5. Test that the next step is triggered when a trim is selected\n6. Test the back button functionality\n7. Check responsive behavior on different screen sizes",
+        "priority": "medium",
+        "dependencies": [
+          2,
+          4
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 6,
+        "title": "Implement Options Selection UI",
+        "description": "Create the user interface for selecting car options based on the previously selected trim with real-time price updates.",
+        "details": "1. Create a component for options selection in `/src/js/components/OptionSelector.js`\n2. Group options by categories (e.g., exterior, interior, performance, safety)\n3. Implement the following features:\n   - Fetch and display options based on selected trim ID\n   - Create checkboxes or toggle switches for each option\n   - Update the total price in real-time as options are selected/deselected\n   - Display option details (description, price)\n   - Handle mutually exclusive options\n   - Handle required/dependent options\n4. Create a price calculator module in `/src/js/utils/priceCalculator.js`\n5. Style the component with CSS in `/src/styles/option-selector.css`\n6. Add a back button to return to trim selection\n7. Make the UI responsive for different screen sizes\n8. Add a summary section showing selected options and total price",
+        "testStrategy": "1. Test rendering with different numbers of options\n2. Verify that only options for the selected trim are displayed\n3. Test that selecting/deselecting options updates the price correctly\n4. Test handling of mutually exclusive options\n5. Test handling of required/dependent options\n6. Verify the price calculation for various combinations\n7. Test the back button functionality\n8. Check responsive behavior on different screen sizes",
+        "priority": "high",
+        "dependencies": [
+          2,
+          5
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 7,
+        "title": "Implement Vehicle Configuration Summary",
+        "description": "Create a summary view of the configured vehicle with all selections and final price, with the ability to save configurations.",
+        "details": "1. Create a component for configuration summary in `/src/js/components/ConfigSummary.js`\n2. Design a comprehensive layout showing:\n   - Selected brand, model, and trim\n   - All selected options grouped by category\n   - Base price, options price, and total price\n   - Vehicle image (if available)\n3. Implement the following features:\n   - Display all configuration details\n   - Add a 'Save Configuration' button\n   - Create a unique identifier for each saved configuration\n   - Store saved configurations in localStorage\n   - Add a 'Start Over' button to begin a new configuration\n   - Add a 'Compare' button to add to comparison list\n4. Create a storage utility in `/src/js/utils/storage.js` for saving/loading configurations\n5. Style the component with CSS in `/src/styles/config-summary.css`\n6. Add print functionality for the summary\n7. Add share functionality (optional)",
+        "testStrategy": "1. Verify that all selected options are displayed correctly\n2. Test that the price calculations are accurate\n3. Test saving a configuration to localStorage\n4. Verify that saved configurations persist after page reload\n5. Test the 'Start Over' functionality\n6. Test the 'Compare' functionality\n7. Test the print functionality\n8. Check responsive behavior on different screen sizes",
+        "priority": "medium",
+        "dependencies": [
+          6
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 8,
+        "title": "Implement Saved Configurations List",
+        "description": "Create a view to display all saved vehicle configurations with the ability to load, delete, or compare them.",
+        "details": "1. Create a component for saved configurations in `/src/js/components/SavedConfigs.js`\n2. Design a list/grid layout showing:\n   - Configuration name/ID\n   - Basic details (brand, model, trim)\n   - Total price\n   - Thumbnail image (if available)\n   - Action buttons (load, delete, add to comparison)\n3. Implement the following features:\n   - Fetch all saved configurations from localStorage\n   - Display configurations in a sortable/filterable list\n   - Add ability to rename configurations\n   - Add ability to delete configurations\n   - Add ability to load a configuration back into the builder\n   - Add ability to select configurations for comparison\n4. Style the component with CSS in `/src/styles/saved-configs.css`\n5. Add confirmation dialogs for delete actions\n6. Make the UI responsive for different screen sizes\n7. Add empty state for when no configurations are saved",
+        "testStrategy": "1. Test loading saved configurations from localStorage\n2. Verify that all saved configurations are displayed correctly\n3. Test renaming a configuration\n4. Test deleting a configuration\n5. Test loading a configuration back into the builder\n6. Test selecting configurations for comparison\n7. Test the empty state\n8. Check responsive behavior on different screen sizes",
+        "priority": "medium",
+        "dependencies": [
+          7
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 9,
+        "title": "Implement Vehicle Comparison Feature",
+        "description": "Create a comparison view to display multiple vehicle configurations side by side for easy comparison.",
+        "details": "1. Create a component for vehicle comparison in `/src/js/components/VehicleComparison.js`\n2. Design a table-like layout with:\n   - Configurations in columns\n   - Features/options in rows\n   - Highlighting of differences\n   - Price breakdown\n3. Implement the following features:\n   - Display selected configurations side by side\n   - Group comparison by categories (basic info, exterior, interior, etc.)\n   - Highlight differences between configurations\n   - Allow removing configurations from comparison\n   - Allow adding more configurations to comparison (up to a reasonable limit)\n   - Add print functionality for the comparison\n4. Style the component with CSS in `/src/styles/vehicle-comparison.css`\n5. Make the UI responsive with horizontal scrolling for many configurations\n6. Add visual indicators for better/worse features\n7. Add a 'clear all' button to reset the comparison",
+        "testStrategy": "1. Test comparing different numbers of configurations (2, 3, 4+)\n2. Verify that differences are highlighted correctly\n3. Test removing a configuration from comparison\n4. Test adding a configuration to comparison\n5. Test the print functionality\n6. Test the 'clear all' functionality\n7. Check responsive behavior on different screen sizes\n8. Test with configurations that have many differences",
+        "priority": "low",
+        "dependencies": [
+          7,
+          8
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 10,
+        "title": "Implement Responsive Design and Final Integration",
+        "description": "Ensure responsive design across all device sizes and integrate all components into a cohesive SPA.",
+        "details": "1. Create responsive layouts for all screen sizes:\n   - Mobile (< 768px)\n   - Tablet (768px - 1024px)\n   - Desktop (> 1024px)\n2. Implement the main application component in `/src/js/App.js`\n3. Set up routing between different views:\n   - Configuration builder (brand → model → trim → options)\n   - Configuration summary\n   - Saved configurations\n   - Comparison view\n4. Create a navigation component in `/src/js/components/Navigation.js`\n5. Implement state management for the entire application\n6. Add transitions between views\n7. Ensure consistent styling across all components\n8. Optimize performance (lazy loading, code splitting)\n9. Add final error handling and fallbacks\n10. Implement analytics tracking (optional)",
+        "testStrategy": "1. Test the application on various devices and screen sizes\n2. Verify that all routes work correctly\n3. Test the complete user flow from start to finish\n4. Verify that state is maintained correctly between views\n5. Test navigation between all views\n6. Perform performance testing (load time, responsiveness)\n7. Test error scenarios and verify proper handling\n8. Conduct usability testing with real users if possible",
+        "priority": "high",
+        "dependencies": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "status": "pending",
+        "subtasks": []
+      }
+    ],
+    "metadata": {
+      "created": "2025-06-28T05:16:15.977Z",
+      "updated": "2025-06-28T05:16:15.978Z",
+      "description": "Tasks for master context"
+    }
+  }
+}

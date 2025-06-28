@@ -1,0 +1,15 @@
+{
+  "name": "cardealer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
